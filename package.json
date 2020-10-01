@@ -1,0 +1,24 @@
+{
+  "name": "sass-utility-module",
+  "version": "1.0.0",
+  "description": "A collection of Sass mixins and functions for any project.",
+  "main": "src/index.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliottregan/sass-utility-module.git"
+  },
+  "keywords": [
+    "sass",
+    "module",
+    "utility"
+  ],
+  "author": "Elliott Regan",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/elliottregan/sass-utility-module/issues"
+  },
+  "homepage": "https://github.com/elliottregan/sass-utility-module#readme"
+}
