@@ -1,0 +1,7 @@
+@mixin absolute-fill($margin: 0, $right: null, $bottom: null, $left: null) {
+  position: absolute;
+  top: $margin;
+  left: if($left, $left, $margin);
+  right: if($right, $right, $margin);
+  bottom: if($bottom, $bottom, $margin);
+}
