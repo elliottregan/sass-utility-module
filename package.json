@@ -5,7 +5,7 @@
   "main": "src/index.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "sass ./src:./dist --watch",
+    "dev": "sass src:dist --watch",
     "build": "sass ./src:./dist"
   },
   "repository": {
