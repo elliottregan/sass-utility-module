@@ -1,6 +1,6 @@
 {
-  "name": "sass-utility-module",
-  "version": "1.0.0",
+  "name": "@elliottregan/sass-utility-module",
+  "version": "1.0.1",
   "description": "A collection of Sass mixins and functions for any project.",
   "main": "src/index.scss",
   "scripts": {
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elliottregan/sass-utility-module.git"
+    "url": "git://github.com/elliottregan/sass-utility-module.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/elliottregan"
   },
   "keywords": [
     "sass",
