@@ -4,13 +4,17 @@
   "description": "A collection of Sass mixins and functions for any project.",
   "main": "src/index.scss",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass ./src:./dist --watch",
+    "build": "sass ./src:./dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elliottregan/sass-utility-module.git"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": [
     "sass",
     "module",
@@ -21,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/elliottregan/sass-utility-module/issues"
   },
-  "homepage": "https://github.com/elliottregan/sass-utility-module#readme"
+  "homepage": "https://github.com/elliottregan/sass-utility-module#readme",
+  "dependencies": {
+    "sass": "^1.27.0"
+  }
 }
